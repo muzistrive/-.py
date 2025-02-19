@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>板栗消消乐</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <h1>板栗消消乐</h1>
+        <div id="grid"></div>
+        <div id="score">分数: 0</div>
+        <div id="target">目标: 1000</div>
+        <div id="timer">时间: 60</div>
+    </div>
+    <div id="card-popup" class="hidden">
+        <h2>恭喜通关！</h2>
+        <p>获得卡片：<span id="card-title"></span></p>
+        <p id="card-description"></p>
+        <button id="close-popup">关闭</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
